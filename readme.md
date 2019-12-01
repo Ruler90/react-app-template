@@ -5,7 +5,7 @@
 2. Install dependencies (first read pt. 3):
 ```
 npm init
-npm install --save-dev @babel/core @babel/cli @babel/preset-env @babel/preset-react babel-loader css-loader style-loader webpack webpack-cli webpack-dev-server
+npm install --save-dev @babel/core @babel/cli @babel/preset-env @babel/preset-react @babel/plugin-proposal-class-properties babel-loader css-loader style-loader webpack webpack-cli webpack-dev-server
 npm install react react-dom react-hot-loader
 ```
 
