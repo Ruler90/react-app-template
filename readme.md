@@ -18,7 +18,12 @@ npm install react react-dom react-hot-loader
 "build": "webpack --mode production --watch"
 ```
 
-5. ESLint install and then create config file:
+5. ESLint:
 ```
-npm install --save-dev eslint
+npm install --save-dev eslint babel-eslint
 ```
+Then create ESLint config file and add parser in .eslintrc:
+```
+"parser": "babel-eslint"
+```
+More info about [babel-eslint](https://github.com/babel/babel-eslint)
