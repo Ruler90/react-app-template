@@ -18,8 +18,7 @@ npm install react react-dom react-hot-loader
 "build": "webpack --mode production --watch"
 ```
 
-5. ESLint:
+5. ESLint install and then create config file:
 ```
 npm install --save-dev eslint
 ```
-- create config file for ESLint
