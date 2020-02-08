@@ -12,15 +12,15 @@ This template can help you write your app using React and then bundle it with We
 
 3. If you want to build multi-page app:
 ```
-react-router-dom
+npm install react-router-dom
 ```
 
 4. Create ESLint configuration file (I'm using airbnb styleguide).
 
 5. You are ready to go.
 
-6. To start webpack-dev-server ```npm run start```
-To bundle, minify and uglify all js/jsx and css code ```npm run build```
+6. To start webpack-dev-server, use ```npm run start```
+To bundle, minify and uglify all js/jsx and css code, use ```npm run build```
 
 ### Detailed start guide:
 
@@ -50,7 +50,7 @@ npm install react-router-dom
 - Live Sass Compiler
 
 6. If you want to see your app on other devices in your network:
-* In webpack.config.js in 'devServer' add key 'host' with your local IP number as a key, e.g. ```host: '192.168.0.66'```.
+* In webpack.config.js in 'devServer' add key 'host' with your local IP number as a value, e.g. ```host: '192.168.0.66'```.
 * Open the browser in other device and type the same address, port, folder/file as you see when you start webpack-dev-server.
 * If you use Windows 10, make sure your home network is set to private. If it's set to public you won't connect from other devices.
 
