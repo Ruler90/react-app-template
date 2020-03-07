@@ -4,7 +4,7 @@ import ExampleH1 from './components/ExampleSFComponent';
 import ExampleP from './components/ExampleClassComponent';
 
 const App = () => {
-  const spanText = 'This is App template';
+  const spanText = 'This is React App template';
 
   return (
     <div className="App">

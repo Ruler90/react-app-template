@@ -5,7 +5,6 @@
   "main": "index.jsx",
   "scripts": {
     "start": "webpack-dev-server --mode development",
-    "dev": "webpack --mode development --output ./dist/devBundle.js --watch",
     "build": "webpack --mode production --watch"
   },
   "repository": {
