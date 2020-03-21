@@ -30,11 +30,8 @@ To bundle, minify and uglify all js/jsx and css code, use ```npm run build```
 ```
 npm init
 npm install --save-dev @babel/core @babel/cli @babel/preset-env @babel/preset-react @babel/plugin-proposal-class-properties babel-loader css-loader style-loader webpack webpack-cli webpack-dev-server
-npm install react react-dom react-hot-loader
-```
-and now required for react-hot-loader:
-```
 npm install --save @types/react
+npm install react react-dom react-hot-loader
 ```
 
 3. For multi-page apps:
@@ -50,7 +47,7 @@ npm install react-router-dom
 - Live Sass Compiler
 
 6. If you want to see your app on other devices in your network:
-* In webpack.config.js in 'devServer' add key 'host' with your local IP number as a value, e.g. ```host: '192.168.0.66'```.
+* In webpack.config.js in ```devServer``` change ```host: 'localhost'``` to your local IP number, e.g. ```host: '192.168.0.66'```.
 * Open the browser in other device and type the same address, port, folder/file as you see when you start webpack-dev-server.
 * If you use Windows 10, make sure your home network is set to private. If it's set to public you won't connect from other devices.
 
