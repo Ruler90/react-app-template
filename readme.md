@@ -15,7 +15,7 @@ This template can help you write your app using React and then bundle it with We
 npm install react-router-dom
 ```
 
-4. Create ESLint configuration file (I'm using airbnb styleguide).
+4. Use my ESLint configuration (I'm using airbnb styleguide) or delete it and create new config.
 
 5. You are ready to go.
 
@@ -60,10 +60,17 @@ npm install react-router-dom
 
 8. ESLint:
 ```
-npm install --save-dev eslint babel-eslint eslint-plugin-react
+npm install --save-dev eslint babel-eslint eslint-plugin-react eslint-plugin-react-hooks
 ```
 Then create ESLint config file and add parser in .eslintrc:
 ```
 "parser": "babel-eslint"
 ```
-More info about [babel-eslint](https://github.com/babel/babel-eslint)
+More info about [babel-eslint](https://github.com/babel/babel-eslint)  
+
+Add rules:
+```
+"react-hooks/rules-of-hooks": "error",
+"react-hooks/exhaustive-deps": "warn"
+```
+
